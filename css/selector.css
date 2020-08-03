@@ -1,0 +1,28 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Verdana, sans-serif;
+}
+
+body div.login-div {
+    display: inline-block;
+    padding: 15px
+    border: solid 1px #c0c0c0;
+    box-shadow: 0 0 2px; #777777;
+   
+}
+.login-div input {
+    padding: 3px;
+    display: block;
+    margin bottom: 7px;
+}
+
+.login-div input[type="email"] 
+{
+   border: solid 1px blue;
+}
+
+.login-div input[class="form-control"] 
+{
+   border: solid 1px red;
+}
+ 
